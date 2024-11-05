@@ -10,7 +10,7 @@ A Twitter bot that posts/tweets images/videos once every hour. This script is us
 
 **FAQ/Notes:**
 1. This code works with the Free version of the Developer Account. That is, you will have v2 Access, and Limited v1.1 Access. This is enough for our needs.
-       - As of Oct 2024, changes have been made to the rate limits, see [here](https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668). For the free account, 500 posts/month are allowed. This means that an hourly account is not possible. You can post every 90 min though to stay within the rate limits.
+    - As of Oct 2024, changes have been made to the rate limits, see [here](https://devcommunity.x.com/t/upcoming-updates-to-the-self-serve-x-api/227668). For the free account, only 500 posts/month are allowed. This means that an hourly account (posting every 60 min or ~720 posts/month) is not possible. You can post every 90 min though to stay within the rate limits though.
 3. If you want to include a caption with your image in the tweet, simply do: `response = client_v2.create_tweet(text="my caption", media_ids=[media.media_id])`
 4. If you want to insert more than one image in the tweet (upto 4 images), you'll have to get a media-id for each image. Then, replace the code with `response = client_v2.create_tweet(text="my caption", media_ids=[media1.media_id, media2.media_id, media3.media_id, media4.media_id])`
 5. In the Developer Portal, make sure you edit the "User authentication set up" so that you have both "Read and Write" permissions. Regenerate your authentication keys if you make such a change.

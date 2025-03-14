@@ -2,7 +2,7 @@
 A Twitter bot that posts/tweets images/videos once every hour. This script is used to automate posts for the [@hourlytakasugi](https://twitter.com/hourlytakasugi) and [@bananafish_hour](https://x.com/bananafish_hour) twitter accounts.
 
 **Steps:**
-1. You need to get a Developer Account first. This will give you some authentication keys that we will need to run the code. It is very simple to get a Developer Account, you just need to fill in some information about what your bot is going to do. To get a Developer Account, you can follow Steps 1-4 from the website [here](https://blog.hubspot.com/website/how-to-make-a-twitter-bot)
+1. You need to get a Developer Account first. This will give you some authentication keys that we will need to run the code. It is very simple to get a Developer Account, you just need to fill in some information about what your bot is going to do. To get a Developer Account, you can follow Steps 1-4 from the website [here](https://medium.com/@Nonso_Analytics/how-to-get-a-twitter-developer-account-and-api-key-a-beginners-guide-1c5c18765a9d)
 2. Once you have a Developer Account, edit values in `twitter-bot-tweet-images.py` with your own keys and image directory. The comments will help you understand which variables to edit.
 3. Now run the code! Command: `python3 twitter-bot-tweet-images.py`
 4. The code runs forever. So you'll need a machine which can keep it running. I run it inside tmux on AWS.

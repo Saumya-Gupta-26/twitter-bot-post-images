@@ -1,5 +1,5 @@
 # twitter-bot-post-images
-A Twitter bot that posts/tweets images/videos once every hour. This script is used to automate posts for the [@hourlytakasugi](https://twitter.com/hourlytakasugi) and [@bananafish_hour](https://x.com/bananafish_hour) twitter accounts.
+A Twitter bot that posts/tweets images/videos once every hour. This script is used to automate posts for the [@hourlytakasugi](https://twitter.com/hourlytakasugi) twitter account.
 
 **Steps:**
 1. You need to get a Developer Account first. This will give you some authentication keys that we will need to run the code. It is very simple to get a Developer Account, you just need to fill in some information about what your bot is going to do. To get a Developer Account, you can follow Steps 1-4 from the website [here](https://medium.com/@Nonso_Analytics/how-to-get-a-twitter-developer-account-and-api-key-a-beginners-guide-1c5c18765a9d)

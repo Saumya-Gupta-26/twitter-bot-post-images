@@ -1,7 +1,7 @@
 # twitter-bot-post-images
 A Twitter bot that posts/tweets images/videos once every hour. This script is used to automate posts for the [@hourlytakasugi](https://twitter.com/hourlytakasugi) and [@bananafish_cuts](https://x.com/bananafish_cuts) twitter accounts.
 
-**IMPORTANT**: As of April 2026, **there is no more free version**. X has now made it all "Pay-per-use" so you have to pay for credits in order to post tweets. More info [here](https://docs.x.com/x-api/getting-started/pricing) 
+**IMPORTANT**: As of April 2026, **there is no more free version**. X has now made it all "Pay-per-use" so you have to pay for credits in order to post tweets. More info [here](https://docs.x.com/x-api/getting-started/pricing). The python script and all the steps in this repo still work, its just that you have to add some money (aka credits) to your account too. Everytime a tweet is posted, money will keep getting deducted. Once your balance is $0.00, tweets will not be posted unless you add more money.
 
 **Steps:**
 1. You need to get a Developer Account first. This will give you some authentication keys that we will need to run the code. It is very simple to get a Developer Account, you just need to fill in some information about what your bot is going to do. To get a Developer Account, you can follow Steps 1-4 from the website [here](https://medium.com/@Nonso_Analytics/how-to-get-a-twitter-developer-account-and-api-key-a-beginners-guide-1c5c18765a9d)
